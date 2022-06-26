@@ -4,3 +4,9 @@ C:\Users\desmp_3bz1040\source\repos\BancoExamen3\BancoBancoNS\BancoBancoNS\obj\D
 C:\Users\desmp_3bz1040\source\repos\BancoExamen3\BancoBancoNS\BancoBancoNS\obj\Debug\BancoBancoNS.csproj.CoreCompileInputs.cache
 C:\Users\desmp_3bz1040\source\repos\BancoExamen3\BancoBancoNS\BancoBancoNS\obj\Debug\BancoBancoNS.dll
 C:\Users\desmp_3bz1040\source\repos\BancoExamen3\BancoBancoNS\BancoBancoNS\obj\Debug\BancoBancoNS.pdb
+C:\Users\desmp\Source\Repos\BancoExamen\BancoBancoNS\BancoBancoNS\bin\Debug\BancoBancoNS.dll
+C:\Users\desmp\Source\Repos\BancoExamen\BancoBancoNS\BancoBancoNS\bin\Debug\BancoBancoNS.pdb
+C:\Users\desmp\Source\Repos\BancoExamen\BancoBancoNS\BancoBancoNS\obj\Debug\BancoBancoNS.csproj.AssemblyReference.cache
+C:\Users\desmp\Source\Repos\BancoExamen\BancoBancoNS\BancoBancoNS\obj\Debug\BancoBancoNS.csproj.CoreCompileInputs.cache
+C:\Users\desmp\Source\Repos\BancoExamen\BancoBancoNS\BancoBancoNS\obj\Debug\BancoBancoNS.dll
+C:\Users\desmp\Source\Repos\BancoExamen\BancoBancoNS\BancoBancoNS\obj\Debug\BancoBancoNS.pdb
