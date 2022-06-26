@@ -8,6 +8,11 @@ namespace BancoBancoNS
 {
     public class Banco
     {
+        public const string CtaCongelada = "La cuenta está congelada";
+        public const string CantidadMayorSaldo = "La cantidad que se quiere retirar es mayor que el saldo";
+        public const string CantidadNegativa = "No se puede retirar una cantidad negativa";
+
+
         private string nombre;
         private double saldo;
         private bool congelada = false;
@@ -28,17 +33,17 @@ namespace BancoBancoNS
         {
             if (Congelada)
             {
-                throw new Exception("Account frozen");
+                throw new Exception(CtaCongelada);
             }
             if (cantidadRetirada > Saldo)
             {
-                throw new ArgumentOutOfRangeException("cantidadRetirada");
+                throw new ArgumentOutOfRangeException(CantidadMayorSaldo);
             }
             if (cantidadRetirada < 0)
             {
-                throw new ArgumentOutOfRangeException("cantidadRetirada");
+                throw new ArgumentOutOfRangeException(CantidadNegativa);
             }
-            Saldo += cantidadRetirada; // intentionally incorrect code
+            Saldo -= cantidadRetirada; // intentionally incorrect code
         }
         public void Credit(double cantidadIngresada)
         {
