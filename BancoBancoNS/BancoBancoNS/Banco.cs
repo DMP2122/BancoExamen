@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace BancoBancoNS
 {
+    /// <summary>
+    /// Clase para trabajar en un banco
+    /// <para>Se realizan retiradas de dinero</para>
+    /// <papa>E ingresos</papa>
+    /// </summary>
     public class Banco
     {
+        /// <summary>
+        /// Declaración de variables
+        /// </summary>
         public const string CtaCongelada = "La cuenta está congelada";
         public const string CantidadMayorSaldo = "La cantidad que se quiere retirar es mayor que el saldo";
         public const string CantidadNegativa = "No se puede retirar una cantidad negativa";
@@ -29,6 +37,14 @@ namespace BancoBancoNS
             this.nombre = nombre;
             this.saldo = saldo;
         }
+        /// <summary>
+        /// Método de retirada de dinero
+        /// </summary>
+        /// <param name="cantidadRetirada">La cantidad que se retira</param>
+        /// <returns>Devuelve el saldo después de retirar una cantidad de dinero<see cref=">Saldo"/></returns>
+        /// <exception cref="Exception">Salta una excepción si la cuenta está congelada</exception>
+        /// <exception cref="ArgumentOutOfRangeException">Salta una excepción si la cantidad es mayor que el saldo</exception>
+        /// <exception cref="ArgumentOutOfRangeException">Salta una excepción si la cantidad que se quiere retirar es negativa</exception>
         public void SacarDinero(double cantidadRetirada)
         {
             if (Congelada)
